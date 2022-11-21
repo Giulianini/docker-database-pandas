@@ -1,0 +1,33 @@
+version: "3.9"                            # The compose file version
+services:                                 # Services section
+  # My SQL Database Service
+  sql-service:
+    image: mysql:latest
+    cap_add:
+      - SYS_NICE
+    # restart: "on-failure"
+    environment:
+      - MYSQL_DATABASE=my_db
+      - MYSQL_ROOT_PASSWORD=my_password
+    networks:         
+      - my-network
+    ports:
+      - '3306:3306'
+    volumes:
+      - db:/var/lib/mysql
+      # - ./my-sql-service/db/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+
+volumes:
+  db:
+    driver: local
+
+networks:
+  my-network:
+    name: my-network
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: "171.18.0.0/16"
+          gateway: "171.18.0.1"

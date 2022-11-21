@@ -1,0 +1,14 @@
+version: "3.9"                            # The compose file version
+services:                                 # Services section
+  # My SQL Database Service
+  mongo-service:
+    image: mongo:latest
+    build:                                
+      context: mongo-service            
+      dockerfile: Dockerfile              
+    container_name: mongo
+    ports:
+      - '27017:27017'
+    environment:
+    - MONGO_INITDB_ROOT_USERNAME=root
+    - MONGO_INITDB_ROOT_PASSWORD=my_password

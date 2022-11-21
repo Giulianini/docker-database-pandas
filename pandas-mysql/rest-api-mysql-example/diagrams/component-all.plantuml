@@ -1,0 +1,57 @@
+@startuml Components
+
+' Create the component + interface for REST API
+cloud "Remote Server" as RemoteServer {
+    node "Docker engine" as Docker <<docker>> {
+        node "App Service Container" as AppContainer <<AppContainer>> {
+            package Application {
+                [Rest Api Service] as ApiService
+                interface HTTP as ApiServiceInterface
+                ApiServiceInterface - ApiService
+
+                [DB Adapter] as Adapter
+                ApiService *-- Adapter 
+            }
+        }
+        AppContainer -down- ApiServiceInterface: 5000:80
+        interface HTTP_HOST as ApiServiceInterfaceContainer
+        ApiServiceInterfaceContainer -down- AppContainer
+        
+        node "DB Service Container" as DBContainer <<DBContainer>> {
+            interface "DB-PORT" as DBInterface
+            database DB {
+                
+            }
+            DB -left- DBInterface
+        }
+        DBContainer -left- DBInterface: 3306:3306
+        interface "DB-PORT_HOST" as DbServiceInterfaceContainer
+        DBContainer -left- DbServiceInterfaceContainer
+    }
+}
+
+' Create the component for HTTP client
+[Client HTTP] as Client
+Client ..> ApiServiceInterfaceContainer: use
+Adapter .right.> DbServiceInterfaceContainer: use
+
+
+skinparam component {
+    backgroundColor PaleGoldenRod
+}
+skinparam package {
+    backgroundColor LightGrey
+}
+skinparam cloud {
+    backgroundColor lightblue
+}
+skinparam node {
+    backgroundColor<<DBContainer>> LightPink
+    backgroundColor<<AppContainer>> LightGoldenRodYellow
+    backgroundColor<<docker>> LightGray
+}
+skinparam database {
+    backgroundColor SeaGreen
+}
+
+@enduml

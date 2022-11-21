@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="694px" preserveAspectRatio="none" style="width:409px;height:694px;background:#FFFFFF;" version="1.1" viewBox="0 0 409 694" width="409px" zoomAndPan="magnify"><defs/><g><!--MD5=[fc1863079907faae5f551efa4424906d]
+cluster RemoteServer--><g id="cluster_RemoteServer"><path d="M48.963,130.251 C59.2498,109.4032 78.2415,112.0717 88.1275,130.6491 C99.9764,109.0471 114.5005,110.6414 129.8818,126.7366 C141.1531,103.7992 154.2004,106.6701 169.5861,122.5256 C177.0188,100.3929 195.4859,99.5169 207.9043,117.7985 C225.414,98.4415 237.1358,103.9113 248.039,124.4452 C259.8901,106.3343 280.0885,104.1557 289.3977,127.0115 C301.5251,107.0279 318.4485,107.6979 331.7191,125.739 C347.3911,107.6038 368.6695,108.6917 376.2892,134 C379.5086,134.5932 380.4688,136.0976 378.8328,139.1083 C395.7889,151.2434 398.3906,163.6252 379.0018,175.927 C398.7495,186.5612 396.9872,200.4809 379.4639,211.5979 C396.0295,220.2835 395.909,231.8448 381.8739,242.8872 C401.3937,256.5529 401.5367,269.5727 381.5269,282.8956 C397.4829,293.1008 398.303,310.2689 382.5304,321.3031 C396.4739,332.2237 399.5317,342.8874 382.4398,353.7213 C400.6821,366.821 396.6264,381.2972 378.806,390.8693 C395.3734,401.926 396.7214,414.5408 378.1719,424.9441 C397.9529,433.6722 399.7052,450.7175 381.7525,462.9963 C401.5581,475.1643 402.1778,491.6776 381.043,503.1216 C399.8208,513.5083 398.7611,527.7049 382.3592,539.369 C396.519,551.5417 398.5638,564.705 379.4465,574.0857 C398.4895,585.0045 395.2663,596.2822 381.9527,609.4913 C399.5402,627.9608 391.6651,643.1511 369.2892,648.72 C372.8991,646.5706 375.0067,647.8781 375.9417,651.7 C365.65,673.3674 343.8133,678.0354 330.2297,655.0716 C323.1183,671.9369 304.9494,673.8192 293.7158,659.9725 C279.0258,680.3644 266.0119,681.8244 252.0429,659.2728 C244.1661,677.5786 225.9855,682.268 212.1946,666.111 C195.1813,687.7241 178.035,682.5684 168.7271,658.7403 C153.8283,678.5438 142.0166,673.4801 129.6266,656.1019 C115.8816,674.3119 97.6503,673.4995 84.8794,654.9172 C64.1007,676.902 43.6348,666.4544 35.2892,641.72 C37.3885,642.1179 37.9451,643.3856 36.8915,645.2248 C20.2354,635.1453 24.4162,620.6218 38.631,612.1666 C21.1724,603.6475 14.9222,589.1351 33.3076,575.423 C18.5588,564.9856 18.5966,550.3105 32.9726,539.6008 C14.5843,529.1448 12.6078,513.3916 30.4283,500.575 C8.3126,489.6829 12.1763,474.6874 27.9528,461.4008 C10.4757,453.6274 9.9878,437.0967 26.6117,427.9559 C6,413.6805 6.8012,400.7082 28.9537,389.004 C13.5931,379.4082 12.2683,365.2464 27.1109,354.0579 C10.6878,342.5021 13.3304,332.2266 27.9154,321.4354 C8.9688,304.9626 13.5143,291.6829 33.2132,280.1717 C18.0966,269.7273 15.1833,258.2652 32.6054,247.2206 C12.0961,234.7593 14.8399,220.1848 32.7204,207.8355 C17.2741,194.5116 19.4638,183.9578 36.0032,173.7109 C17.2168,156.671 15.0791,137.85 42.2892,127 C46.2213,124.7267 48.0273,126.3733 48.963,130.251 " fill="#ADD8E6" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="99" x="156.2892" y="146.5332">Remote Server</text></g><!--MD5=[8e1ca234e67c2d8bfc0f296ca0077fd7]
+cluster Container--><g id="cluster_Container"><polygon fill="#FFFFFF" points="59.2892,280,69.2892,270,352.2892,270,352.2892,614.72,342.2892,624.72,59.2892,624.72,59.2892,280" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="342.2892" x2="352.2892" y1="280" y2="270"/><line style="stroke:#181818;stroke-width:1.0;" x1="59.2892" x2="342.2892" y1="280" y2="280"/><line style="stroke:#181818;stroke-width:1.0;" x1="342.2892" x2="342.2892" y1="280" y2="624.72"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="153" x="125.2892" y="297.5332">App Service Container</text></g><!--MD5=[d64883541e3d62e3241c4d12decf100d]
+cluster Application--><g id="cluster_Application"><path d="M93.7892,383.72 L173.7892,383.72 A3.75,3.75 0 0 1 176.2892,386.22 L183.2892,407.3294 L317.7892,407.3294 A2.5,2.5 0 0 1 320.2892,409.8294 L320.2892,590.22 A2.5,2.5 0 0 1 317.7892,592.72 L93.7892,592.72 A2.5,2.5 0 0 1 91.2892,590.22 L91.2892,386.22 A2.5,2.5 0 0 1 93.7892,383.72 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="91.2892" x2="183.2892" y1="407.3294" y2="407.3294"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="95.2892" y="400.2532">Application</text></g><!--MD5=[6b8b02825cfe95eb344cc7ecdff3f734]
+entity ApiServiceInterfaceContainer--><g id="elem_ApiServiceInterfaceContainer"><ellipse cx="116.2892" cy="185" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="74.2892" y="216.5332">HTTP_HOST</text></g><!--MD5=[5151972157682f9decd04efba8c789b7]
+entity ApiService--><g id="elem_ApiService"><rect fill="#EEE8AA" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="144" x="160.2892" y="419.72"/><rect fill="#EEE8AA" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="284.2892" y="424.72"/><rect fill="#EEE8AA" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="282.2892" y="426.72"/><rect fill="#EEE8AA" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="282.2892" y="430.72"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="175.2892" y="454.2532">Rest Api Service</text></g><!--MD5=[46d30a4f4884a64aef3690cad749b040]
+entity ApiServiceInterface--><g id="elem_ApiServiceInterface"><ellipse cx="116.2892" cy="443.72" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="97.7892" y="475.2532">HTTP</text></g><!--MD5=[112ac2a0f8fda4b2eca8a724b72fff30]
+entity ApiModel--><g id="elem_ApiModel"><rect fill="#EEE8AA" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="164.2892" y="528.72"/><rect fill="#EEE8AA" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="280.2892" y="533.72"/><rect fill="#EEE8AA" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="278.2892" y="535.72"/><rect fill="#EEE8AA" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="278.2892" y="539.72"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="179.2892" y="563.2532">Rest Api Model</text></g><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><g id="elem_Client"><rect fill="#EEE8AA" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="57.7892" y="7"/><rect fill="#EEE8AA" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="154.7892" y="12"/><rect fill="#EEE8AA" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="152.7892" y="14"/><rect fill="#EEE8AA" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="152.7892" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="72.7892" y="41.5332">Client HTTP</text></g><!--MD5=[5afdbba86db38ddc1bef881e39ef3d06]
+link ApiServiceInterface to ApiService--><g id="link_ApiServiceInterface_ApiService"><path d="M125.3492,443.72 C136.9092,443.72 148.4692,443.72 160.0192,443.72 " fill="none" id="ApiServiceInterface-ApiService" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[19f6b13325f6b63a53580c1de9884c4d]
+reverse link ApiService to ApiModel--><g id="link_ApiService_ApiModel"><path d="M232.2892,481.02 C232.2892,496.74 232.2892,514.68 232.2892,528.55 " fill="none" id="ApiService-backto-ApiModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="232.2892,467.94,228.2892,473.94,232.2892,479.94,236.2892,473.94,232.2892,467.94" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[97b4e0bf786efd749cce299cdd39787c]
+link Container to ApiServiceInterface--><g id="link_Container_ApiServiceInterface"><path d="M116.2892,303.82 C116.2892,307.41 116.2892,405.61 116.2892,434.68 " fill="none" id="Container-ApiServiceInterface" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="117.2892" y="348.2151">5000:80</text></g><!--MD5=[a68b134de679e339e75f5a246ea27e3d]
+link ApiServiceInterfaceContainer to Container--><g id="link_ApiServiceInterfaceContainer_Container"><path d="M116.2892,194.37 C116.2892,207.5 116.2892,233.865 116.2892,257.2563 C116.2892,260.1802 116.2892,263.0576 116.2892,265.8569 C116.2892,267.2566 116.2892,268.6367 116.2892,269.9933 " fill="none" id="ApiServiceInterfaceContainer-Container" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b18563d36d78ee7b2011dce888022b62]
+link Client to ApiServiceInterfaceContainer--><g id="link_Client_ApiServiceInterfaceContainer"><path d="M116.2892,55.09 C116.2892,87.34 116.2892,144.84 116.2892,170.72 " fill="none" id="Client-to-ApiServiceInterfaceContainer" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="116.2892,175.75,120.2892,166.75,116.2892,170.75,112.2892,166.75,116.2892,175.75" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="117.2892" y="99.4951">use</text></g><!--MD5=[adda03017412b2930643dbe9f920099a]
+@startuml Components
+
+' Create the component + interface for REST API
+cloud "Remote Server" as RemoteServer {
+    node "App Service Container" as Container {
+        package Application {
+            [Rest Api Service] as ApiService
+            interface HTTP as ApiServiceInterface
+            ApiServiceInterface - ApiService
+
+            [Rest Api Model] as ApiModel
+            ApiService *- - ApiModel 
+        }
+    }
+    Container -down- ApiServiceInterface: 5000:80
+    interface HTTP_HOST as ApiServiceInterfaceContainer
+    ApiServiceInterfaceContainer -down- Container
+}
+
+' Create the component for HTTP client
+[Client HTTP] as Client
+Client ..> ApiServiceInterfaceContainer: use
+
+
+skinparam component {
+    backgroundColor PaleGoldenRod
+}
+skinparam package {
+    backgroundColor white
+}
+skinparam cloud {
+    backgroundColor lightblue
+}
+@enduml
+
+@startuml Components
+
+cloud "Remote Server" as RemoteServer {
+    node "App Service Container" as Container {
+        package Application {
+            [Rest Api Service] as ApiService
+            interface HTTP as ApiServiceInterface
+            ApiServiceInterface - ApiService
+
+            [Rest Api Model] as ApiModel
+            ApiService *- - ApiModel 
+        }
+    }
+    Container -down- ApiServiceInterface: 5000:80
+    interface HTTP_HOST as ApiServiceInterfaceContainer
+    ApiServiceInterfaceContainer -down- Container
+}
+
+[Client HTTP] as Client
+Client ..> ApiServiceInterfaceContainer: use
+
+
+skinparam component {
+    backgroundColor PaleGoldenRod
+}
+skinparam package {
+    backgroundColor white
+}
+skinparam cloud {
+    backgroundColor lightblue
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

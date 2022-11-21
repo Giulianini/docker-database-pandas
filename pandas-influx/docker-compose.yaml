@@ -1,0 +1,30 @@
+version: '3'
+services:
+  influxdb:
+    image: influxdb:latest
+    container_name: influxdb_container
+    volumes:
+      # Mount for influxdb data directory and configuration
+      - influx-db-data:/var/lib/influxdb2:rw
+      - influx-db-config:/etc/influxdb2:rw
+      - ./backup:/backup                      # Direct mapping of backup folder, if not working (write permission) try to create a dockerfile with a copy of backup
+      # - ./influx-init.sh:/docker-entrypoint-initdb.d/influx-init.sh:ro
+    environment:
+       # Use these same configurations parameters in your telegraf configuration, mytelegraf.conf.
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=root
+      - DOCKER_INFLUXDB_INIT_PASSWORD=my_password
+      - DOCKER_INFLUXDB_INIT_ORG=org
+      - DOCKER_INFLUXDB_INIT_BUCKET=test
+      #- DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=
+      - TZ=Europe/Rome
+    entrypoint: ["./entrypoint.sh"]
+    restart: unless-stopped
+    ports:
+      - "8086:8086"
+
+volumes:
+  influx-db-data:
+    driver: local
+  influx-db-config:
+    driver: local
